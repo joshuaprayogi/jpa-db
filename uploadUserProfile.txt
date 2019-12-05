@@ -1,0 +1,9 @@
+curl -X POST -d '{"d":[{"identity":"1A7DABE0-5BD1-7D4F-7F27-B292CE9FA20E","type":"profile","profileData":{"User ID":"1A7DABE0-5BD1-7D4F-7F27-B292CE9FA20E","Location":"Chennai","Customer Type":"L","Subscription ID":"B53B21CF-951B-7E01-5A61-CCEE7C5531B3","Gender":" Female"}},
+	  {"identity":"9C917222-0B95-8643-4CBD-872F371B76DD","type":"profile","profileData":{"User ID":"9C917222-0B95-8643-4CBD-872F371B76DD","Location":"New York","Customer Type":"M","Subscription ID":"5B6C3F5F-8131-2C23-7261-29D297775938","Gender":" Male"}},
+	  {"identity":"8C3A48AA-4BC1-A5DF-01FD-5544738546DF","type":"profile","profileData":{"User ID":"8C3A48AA-4BC1-A5DF-01FD-5544738546DF","Location":"Chennai","Customer Type":"M","Subscription ID":"FAF27EC3-0A95-2997-840F-C9C5FFA96088","Gender":" Female"}},
+	  {"identity":"B1E72BEF-5AD3-4B31-9BA9-C263EFE395D6","type":"profile","profileData":{"User ID":"B1E72BEF-5AD3-4B31-9BA9-C263EFE395D6","Location":"London","Customer Type":"M","Subscription ID":"2316C12A-3775-6817-172B-3DC0B3711919","Gender":" Female"}},
+	  {"identity":"56D07FEC-61D0-7B6A-5C4C-0C48958C738E","type":"profile","profileData":{"User ID":"56D07FEC-61D0-7B6A-5C4C-0C48958C738E","Location":"Bangalore","Customer Type":"XL","Subscription ID":"6E3F4811-1309-5362-7BAF-3B5A295D9E26","Gender":" Male"}}
+	  ]}' "https://api.clevertap.com/1/upload" \
+-H "X-CleverTap-Account-Id: RK4-R6K-565Z" \
+-H "X-CleverTap-Passcode: EHA-IIB-UEKL" \
+-H "Content-Type: application/json; charset=utf-8"
